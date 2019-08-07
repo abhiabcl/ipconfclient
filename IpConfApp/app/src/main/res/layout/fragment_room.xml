@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/confdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Conference Details"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/bridgePhoneTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="BridgePhone"/>
+        <EditText
+            android:id="@+id/txtbridgePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10"/>
+        <TextView
+            android:id="@+id/hostCodeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HostCode"
+            android:layout_marginLeft="100dp" />
+        <EditText
+            android:id="@+id/txthostCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/partCodeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PartCode"
+            android:layout_marginLeft="100dp" />
+        <EditText
+            android:id="@+id/txtpartCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btnCreateConf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Create" />
+
+        <TextView
+            android:id="@+id/confIdTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conference Id to Terminate"
+            android:layout_marginLeft="100dp" />
+        <EditText
+            android:id="@+id/txtConfId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btnTerminConf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Terminate" />
+    </LinearLayout>
+
+</FrameLayout>
